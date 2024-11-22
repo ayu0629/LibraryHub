@@ -18,7 +18,7 @@ const addlibrarySchema = Yup.object().shape({
   version: Yup.string()
     .required('Version is required'),
   packagename: Yup.string()
-    .min(4, 'Package name must be at least 6 characters')
+    .min(4, 'Package name must be at least 4 characters')
     .max(50, 'Package name must be at most 50 characters')
     .required('Package name is required'),
   tags: Yup.string()
