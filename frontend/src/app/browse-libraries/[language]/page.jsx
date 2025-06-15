@@ -109,7 +109,7 @@ const BrowseLibraries = () => {
             <div
               key={lib.id}
               className="bg-white p-6 rounded-lg shadow-md hover:shadow-2xl transition-all duration-500 ease-in-out  
-               delay-150 hover:-translate-y-2 hover:scale-105 flex flex-col items-center justify-between bg-gradient-to-tr from-orange-100 via-purple-200 to-pink-500"
+               delay-150 hover:-translate-y-2 hover:scale-105 flex flex-col items-center justify-between bg-gradient-to-tr from-orange-100 via-purple-200 to-indigo-600"
             >
               <h3 className="font-bold text-xl text-blue-800 mb-2">{lib.name}</h3>
               <p className="text-gray-700 text-sm mb-4">{lib.packagename}</p>

@@ -21,12 +21,12 @@ const page = () => {
                 {/* Title */}
                 <div className="space-y-2 md:space-y-4">
                   <h2 className="font-bold text-3xl lg:text-4xl text-white">
-                   Welcome to Library<span class="text-gray-400">HUB</span>
+                   Welcome to Library<span class="text-sky-300">HUB</span>
                   </h2>
-                  <p className="text-gray-500">
+                  <p className="text-gray-300">
                      Your one-stop destination for discovering a wide range of libraries across multiple programming languages and frameworks.
                   </p>
-                  <p className="text-gray-500">Our platform offers an extensive collection of libraries for various languages and frameworks,catering to your diverse development needs.</p>
+                  <p className="text-gray-300">Our platform offers an extensive collection of libraries for various languages and frameworks,catering to your diverse development needs.</p>
                 </div>
                 {/* End Title */}
                 {/* List */}
@@ -49,7 +49,7 @@ const page = () => {
                       </svg>
                     </span>
                     <div className="grow">
-                      <span className="text-sm sm:text-base text-gray-500">
+                      <span className="text-sm sm:text-base text-gray-300">
                         <span className="font-bold">Centralized Resource</span> Hub
                       </span>
                     </div>
@@ -72,7 +72,7 @@ const page = () => {
                       </svg>
                     </span>
                     <div className="grow">
-                      <span className="text-sm sm:text-base text-gray-500">
+                      <span className="text-sm sm:text-base text-gray-300">
                         Enhance Developer <span className="font-bold">Productivity</span>
                       </span>
                     </div>
@@ -94,9 +94,9 @@ const page = () => {
                         <polyline points="20 6 9 17 4 12" />
                       </svg>
                     </span>
-                    <div className="grow">
-                      <span className="text-sm sm:text-base text-gray-500">
-                        Save Development Time
+                    <div className="grow"> 
+                      <span className="text-sm sm:text-base text-gray-300">
+                       <span className="font-bold">Save Development</span> Time
                       </span>
                     </div>
                   </li>

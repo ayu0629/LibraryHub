@@ -10,11 +10,12 @@ const express = require('express');
 const UserRouter = require('./router/UserRouter')
 const LibraryRouter = require('./router/LibraryRouter')
 const cors = require('cors')
+require('dotenv').config();
 
 //Initializing express
 const app = express();
 
-const port = 5000;
+const port = process.env.port || 5000;
 
 //middleware
 app.use( cors ({ 

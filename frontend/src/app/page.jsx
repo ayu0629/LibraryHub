@@ -20,13 +20,13 @@ const Home = () => {
 
             {/* Title */}
             <div className="max-w-3xl text-center mx-auto">
-              <h1 className="block font-medium text-transparent bg-gradient-to-r from-slate-300 to-slate-400 bg-clip-text text-4xl sm:text-5xl md:text-6xl lg:text-7xl animate-bounce">
+              <h1 className="block font-medium text-gray-100 bg-clip-text text-4xl sm:text-5xl md:text-6xl lg:text-7xl animate-bounce">
                 Now it's easier than ever to build projects
               </h1>
             </div>
             {/* End Title */}
             <div className="max-w-3xl text-center mx-auto">
-              <p className="text-lg text-white/70">
+              <p className="text-lg text-slate-300">
                 LibraryHub is a one-stop destination to explore wide range of
                 libraries and framework across multiple programming languages
               </p>
@@ -96,10 +96,10 @@ const Home = () => {
         <>
           {/* Most used libraries */}
           {/* Title */}
-          <section className="bg-gradient-to-r from-slate-200 to-slate-300 pb-20">
+          <section className="bg-slate-800 text-white pb-20">
             <div className=" max-w-3xl p-10 pb-5 lg:mb-10 mx-auto">
               <div className="font-bold text-2xl md:text-5xl md:leading-tight">
-                <h1 className="text-transparent bg-gradient-to-r from-slate-400 to-slate-900 bg-clip-text  text-center">
+                <h1 className="text-gray-100 bg-clip-text  text-center">
                   Most popular Libraries!
                 </h1>
               </div>
@@ -109,7 +109,7 @@ const Home = () => {
             <div className="grid grid-cols-1 gap-2 lg:grid-cols-3 items-center">
               {/* Card */}
               <a
-                className="mx-4 p-4 shadow-blue-700  md:p-6 h-full flex flex-col bg-gradient-to-tl from-blue-600 to-violet-600 shadow-lg shadow-transparent rounded-t-xl rounded-b-xl lg:first:rounded-l-xl lg:last:rounded-bl-none  rotate-6 hover:rotate-0"
+                className="mx-4 p-4 shadow-blue-700  md:p-6 h-full flex flex-col bg-gradient-to-r from-indigo-600 to-blue-500 shadow-lg shadow-transparent rounded-t-xl rounded-b-xl lg:first:rounded-l-xl lg:last:rounded-bl-none  rotate-6 hover:rotate-0"
                 href="#"
               >
                 <div className="mb-5">
@@ -144,7 +144,7 @@ const Home = () => {
                   <div className="mt-9">
                     <p className="font-semibold text-5xl text-black">Next.js</p>
                     <h3 className="mt-5 font-medium text-lg text-black">75%</h3>
-                    <p className="mt-1 text-neutral-400">
+                    <p className="mt-1 text-white">
                       Next.js is a React development framework that is used to build
                       full-stack React applications. It's known for its exceptional
                       performance, scalability, and developer-centric design. Next.js is
@@ -223,7 +223,7 @@ const Home = () => {
               {/* End Card */}
               {/* Card */}
               <a
-                className="group relative z-10 mx-4 p-4 md:p-4 h-full flex flex-col bg-gradient-to-tl from-blue-600 to-violet-600 shadow-lg shadow-transparent rounded-t-xl rounded-b-xl lg:first:rounded-l-xl lg:first:rounded-tr-none lg:last:rounded-r-xl lg:last:rounded-bl-none -rotate-6 hover:rotate-0 "
+                className="group relative z-10 mx-4 p-4 md:p-4 h-full flex flex-col bg-gradient-to-r from-indigo-600 to-blue-500 shadow-lg shadow-transparent rounded-t-xl rounded-b-xl lg:first:rounded-l-xl lg:first:rounded-tr-none lg:last:rounded-r-xl lg:last:rounded-bl-none -rotate-6 hover:rotate-0 "
                 href="#"
               >
                 <div className="my-0">
@@ -264,7 +264,7 @@ const Home = () => {
                   <div className="mt-0">
                     <p className="font-semibold text-5xl text-black">Node.js</p>
                     <h3 className="mt-5 font-medium text-lg text-black">70%</h3>
-                    <p className="mt-2 text-neutral-400">
+                    <p className="mt-2 text-white">
                       Node.js is a cross-platform, open-source JavaScript runtime
                       environment that can run on Windows, Linux, Unix, macOS, and more.
                       Node.js runs on the V8 JavaScript engine, and executes JavaScript
@@ -284,7 +284,7 @@ const Home = () => {
             {/* End Card Grid */}
 
             {/* animation theme*/}
-            <div className=" p-4 mt-16 font-bold  text-2xl gap-2  text-slate-950 scroll-container italic">
+            <div className=" p-4 mt-16 font-bold  text-2xl gap-2  text-slate-100 scroll-container italic">
               <ul className='flex flex-row justify-center scroll-text gap-3'>
                 <li>Node.js</li>
                 <li>Next.js</li>
@@ -305,11 +305,9 @@ const Home = () => {
           </section>
         </>
 
-        <>
-
-
-          {/* Features */}
-          <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-black">
+        {/* Features */}
+        <section className=" bg-black text-white pb-20">
+          <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
             <div className="mt-1 sm:mt-10 lg:mt-0">
 
               {/* CHAT BUBBLE */}
@@ -321,14 +319,14 @@ const Home = () => {
 
               {/* Title */}
               <div className="flex flex-col justify-center items-center ">
-                <h2 className="font-bold text-3xl lg:text-5xl text-gray-100 text-center md:max-w-4xl mb-2 p-2">
+                <h2 className="font-bold text-3xl lg:text-5xl text-slate-100 text-center md:max-w-4xl mb-2 p-2">
                   Experience our one-stop destination of  libraries and framework
                 </h2>
-                <p className='mt-2'>
+                <p className="mt-2 text-slate-300">
                   As a developer we spend lot of time in searching right tools to
                   start our project.So,no worries!
                 </p>
-                <p>
+                <p className='text-slate-300'>
                   We, welcome you to our webiste where you will find latest and
                   popular frameworkf of any programming languages
                 </p>
@@ -338,7 +336,7 @@ const Home = () => {
               {/*Features card */}
 
               <div className="flex w-full flex-col lg:flex-row mt-16">
-                <div className="card bg-base-300 rounded-box grid grid-rows-2 h-40 flex-grow place-items-center mb-4">
+                <div className="card bg-base-100 rounded-box grid grid-rows-2 h-40 flex-grow place-items-center mb-4">
                   <h3 className='text-xl font-bold text-white'>Detailed Library Description</h3>
                   <p className='px-3 pb-5'>Provide in-depth information about each library, including its purpose, usage examples, compatibility, and licensing.</p>
                 </div>
@@ -383,19 +381,20 @@ const Home = () => {
             </div>
           </div>
           {/* End Features section*/}
-        </>
+        </section>
 
         {/* Testimonial section */}
-        <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-gradient-to-r from-slate-200 to-slate-300 text-primary-content">
+        <section className="bg-slate-800 text-white pb-20">
+        <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto text-primary-content">
           {/* CHAT BUBBLE */}
           <div className="chat chat-start flex justify-center">
-            <div className="chat-bubble  font-bold">Testimonials</div>
+            <div className="chat-bubble bg-indigo-500 text-white font-bold">Testimonials</div>
           </div>
           {/* END */}
 
           <div className='mb-9'>
-            <p className='font-bold text-3xl lg:text-5xl  text-transparent bg-gradient-to-r from-slate-400 to-slate-900 bg-clip-text text-center p-2'>What they say about us</p>
-            <p className='text-lg text-slate-500 text-center mx-auto max-w-2xl'>
+            <p className='font-bold text-3xl lg:text-5xl text-slate-100 bg-clip-text text-center p-2'>What they say about us</p>
+            <p className='text-lg text-slate-300 text-center mx-auto max-w-2xl'>
               Discover first-hand accounts from our clients, who experienced the transformative power of our creative solutions.</p>
           </div>
 
@@ -535,10 +534,10 @@ const Home = () => {
           {/* End Grid */}
         </div>
         {/* end Testimonials */}
-      </>
-      <>
+        </section>
+     
         {/* footer section */}
-        <footer className="footer footer-center bg-gradient-to-tl from-blue-600 to-violet-600 p-10">
+        <footer className="footer footer-center bg-slate-900 text-slate-300 p-10">
           <p className="font-bold">
             LibraryHUB
             <br />
@@ -585,10 +584,9 @@ const Home = () => {
             </div>
           </nav>
         </footer>
-
       </>
-    </div >
+    </div>
   )
 }
 
-export default Home
+export default Home;
